@@ -3,9 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Hello
 ---
 
-Hello, thank you for taking the time to visit my personal page.
+Thank you for taking the time to visit my personal page.
 
 My name is Isaac Boucinha, and I'm a programmer based out of sunny Lisbon, Portugal. I specialize in web development, in C#, and Javascript.
 
