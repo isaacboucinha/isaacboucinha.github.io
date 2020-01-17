@@ -5,8 +5,6 @@
 layout: home
 ---
 
-## Hello
-
 Thank you for taking the time to visit my personal page.
 
 My name is Isaac Boucinha, and I'm a programmer based out of sunny Lisbon, Portugal. I specialize in web development, in C#, and Javascript.
