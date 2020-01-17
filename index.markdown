@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# Hello
+## Hello
 
 Thank you for taking the time to visit my personal page.
 
