@@ -1,0 +1,51 @@
+<footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  
+    <div class="wrapper">
+  
+      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li class="p-name">
+              Send me an email at:
+              </li>
+              {%- if site.email -%}
+              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+              {%- endif -%}
+          </ul>
+        </div>
+  
+        <div class="footer-col footer-col-2">
+            <ul class="social-media-list">
+                <li>
+                    <a href="https://github.com/{{ site.github_username }}">
+                        <svg class="svg-icon">
+                            <use xlink:href="/assets/minima-social-icons.svg#github">
+                            </use>
+                        </svg> 
+                        <span class="username">isaacboucinha</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                        <svg class="svg-icon">
+                            <use xlink:href="/assets/minima-social-icons.svg#linkedin"></use>
+                        </svg>
+                        <span class="username">isaac-boucinha</span>
+                    </a>
+                </li>
+                    </ul>
+
+        </div>
+  
+        <div class="footer-col footer-col-3">
+          <p>{{- site.description | escape -}}</p>
+          <p>Hosted by <a href="https://pages.github.com/">Github Pages</a><G>.</p>
+        </div>
+      </div>
+  
+    </div>
+  
+  </footer>
